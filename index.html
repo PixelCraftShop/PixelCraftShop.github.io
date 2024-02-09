@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelCraft.Shop</title>
+  <meta name="description" content="Pixel Craft website">
+  <meta name="keywords" content="Pixel art Blocks">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/ec148e8910.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato:wght@400;900&family=Sarpanch:wght@800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="Images/Logo.jpg">
+</head>
+
+<body>
+  <div id="overlay" class="overlay">
+    <div id="modal" class="modal">
+      <div id="close" class="modal-close">&times;</div>
+      <div class="Setting">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <h3>Settings</h3>
+      <div>
+        <form action="">
+          <h4>Dark Mode</h4>
+          <label class="switch">
+            <input type="checkbox" id="Theme" onclick="ThemeFunc()" role="switch">
+            <span class="slider"></span>
+          </label>
+        </form>
+      </div>
+      <div>
+        <form action="">
+          <h4>Dyslexic mode</h4>
+          <label class="switch">
+            <input type="checkbox" id="Dys" onclick="DysFunc()">
+            <span class="slider"></span>
+          </label>
+        </form>
+      </div>
+    </div>
+  </div>
+  <header id="header">
+    <div class="logo">
+      <img src="Images/Logo.jpg" </img>
+    </div>
+    <div class="logo-text">Pixel Craft</div>
+    <div id="menu" class="menu">
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-square-xmark"></i>
+    </div>
+    <nav>
+      <ul>
+        <li><a target="_blank" href="https://www.instagram.com/" </a><i class="fa-brands fa-instagram"></i></li>
+        <li><a target="_blank" href="https://www.tiktok.com/" </a><i class="fa-brands fa-tiktok"></i></li>
+        <li><a target="_blank" href="https://www.etsy.com/uk/people/jrju8onrh5wga6jd?ref=hdr_user_menu-profile"><i
+              class="fa-brands fa-etsy"></i></a></li>
+        <li><i class="fa-solid fa-envelope"></i></li>
+        <li id="Set"><i class="fa-solid fa-gear"></i></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="main-content">
+      <h1>Build Your <span class="green">Pixels</span></h1>
+      <h2>Get Crafting Now!</h2>
+      <a class="button" href="#">Block up</a>
+    </div>
+  </main>
+  <section class="Create">
+    <div class="flex-container">
+      <div class="flex-item">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="Images/final.png" style="width:100%">
+            <div class="text">Mini Charmander Pokemon</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="Images/Xbox360.jpg" style="width:100%">
+            <div class="text">Xbox Controler Set</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="Images/GameOver.jpg" style="width:100%">
+            <div class="text">Gameover Pixel Sign</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="Images/GameOver.jpg" style="width:100%">
+            <div class="text">Gameover Pixel Sign</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="Images/GameOver.jpg" style="width:100%">
+            <div class="text">Gameover Pixel Sign</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <div class="flex-item">
+        <h3>Create anything!</h3>
+        <div class="separator">
+          <span></span> <span></span> <span></span>
+        </div>
+        <p class=gameovertext>Ever wanted a creative outlet but can't afford other things like Lego? with many designs
+          to choose from coming from either our provided ones or from your imagination there is never not enough to
+          choose from. Build things from your dreams. Build for yourself or others. Build with others or work alone as a
+          way to express your feelings. Build anytime or anywhere.</p>
+        <a class="button">Read more</a>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="flex-container">
+      <div class="flex-item">
+        <div class="icon">
+          <i class="fa-regular fa-lightbulb"></i>
+        </div>
+        <h4>Improves creativity</h4>
+        <p>Our pixel art will be perfect for you or your child as it improves creative thoughts as you try our designs
+          or try your own, building your own personal decoration piece.</p>
+      </div>
+      <div class="flex-item">
+        <div class="icon">
+          <i class="fa-regular fa-image"></i>
+        </div>
+        <h4>Amazing decoration</h4>
+        <p>After building your pixel art place it on a wall or place it on a shelf or anywhere you want it in your house
+          to add your own artistic flare to the room.</p>
+      </div>
+      <div class="flex-item">
+        <div class="icon">
+          <i class="fa-solid fa-people-group"></i>
+        </div>
+        <h4>It is made for anyone</h4>
+        <p>For children who want to explore and express their own thoughts to others or made for adults who want to
+          spend a few minutes of peace doing something fulfilling.</p>
+      </div>
+      <div class="flex-item">
+        <div class="icon">
+          <i class="fa-solid fa-infinity"></i>
+        </div>
+        <h4>Endless possibilities</h4>
+        <p>The possibilities never end with the designs provided or you can build using nothing else other than your
+          mind and the provided materials.</p>
+      </div>
+    </div>
+  </section>
+  <section class="pad">
+  </section>
+  <footer>
+    <div class="footer-top flex-container">
+      <div class="flex-item">
+        <h6>Contact</h6>
+        <hr>
+        <span><i class="fa-solid fa-paper-plane"></i> pixelshopcraft@gmail.com</span>
+      </div>
+      <div class="flex-item">
+        <h6>Follow</h6>
+        <hr>
+        <span><a target="_blank" href="https://www.etsy.com/uk/people/jrju8onrh5wga6jd?ref=hdr_user_menu-profile"><i
+              class="fa-brands fa-etsy"></i></a></span>
+        <span><a target="_blank" href="https://www.tiktok.com/" <i class="fa-brands fa-tiktok"></i></a></span>
+        <span><a target="_blank" href="https://www.instagram.com/" <i class="fa-brands fa-instagram"></i></a></span>
+      </div>
+      <div class="flex-item">
+        <h6>Newsletter</h6>
+        <hr>
+        <input placeholder="Email">
+        <a class="button" href="#">Subscribe</a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; PixelCraft</div>
+  </footer>
+</body>
+<script>
+  document.getElementById('Set').addEventListener('click', function () {
+    document.getElementById('overlay').classList.add('show');
+    document.getElementById('modal').classList.add('show');
+  })
+
+  document.getElementById('close').addEventListener('click', function () {
+    document.getElementById('overlay').classList.remove('show');
+    document.getElementById('modal').classList.remove('show');
+  })
+
+  document.getElementById('menu').addEventListener('click', function () {
+    document.getElementById('header').classList.toggle('dropped');
+  })
+
+  window.onresize = function () {
+    if (window.innerWidth > 760) (
+      header.classList.remove("dropped")
+    )
+  }
+
+  function playSound() {
+    var audio = new Audio('Assets/mine.mp3');
+    audio.play();
+  }
+
+  function ThemeFunc() {
+
+    var checkBox = document.getElementById("Theme");
+
+    if (checkBox.checked == true) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }
+
+  function DysFunc() {
+
+    var checkBox = document.getElementById("Dys");
+
+    if (checkBox.checked == true) {
+      document.body.classList.add("dyslexic");
+    } else {
+      document.body.classList.remove("dyslexic");
+    }
+  }
+  
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
+
+</html>
